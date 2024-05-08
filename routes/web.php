@@ -7,3 +7,8 @@ Route::get('/', function () {
 });
 
 Route::get('/login', function(){return "hai";});
+
+Route::get('/dashboard', function(){
+    return view('dashboard');
+});
+
